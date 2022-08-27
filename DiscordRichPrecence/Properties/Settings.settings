@@ -1,0 +1,78 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DiscordRichPrecence.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="applicationId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Discord Application ID</Value>
+    </Setting>
+    <Setting Name="rpcState" Type="System.String" Scope="User">
+      <Value Profile="(Default)">State</Value>
+    </Setting>
+    <Setting Name="rpcDetails" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Details</Value>
+    </Setting>
+    <Setting Name="largeImageUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://imgur.com/vk4Dq3F.png</Value>
+    </Setting>
+    <Setting Name="largeImageText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Large Image Text</Value>
+    </Setting>
+    <Setting Name="smallImageUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://imgur.com/vk4Dq3F.png</Value>
+    </Setting>
+    <Setting Name="smallImageText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Small Image Text</Value>
+    </Setting>
+    <Setting Name="rpcTimer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="button1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="button1Title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Button Title</Value>
+    </Setting>
+    <Setting Name="button1Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com</Value>
+    </Setting>
+    <Setting Name="button2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="button2Title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Button Title</Value>
+    </Setting>
+    <Setting Name="button2Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com</Value>
+    </Setting>
+    <Setting Name="loopState" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="loopStateStates" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="largeImageButton" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="smallImageButton" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="rpcButtonButton1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="rpcButtonButton2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="rpcTimerButton" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="loopDetailsButton" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="largeImgText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Large Image Text</Value>
+    </Setting>
+    <Setting Name="smallImgText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Small Image Text</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
