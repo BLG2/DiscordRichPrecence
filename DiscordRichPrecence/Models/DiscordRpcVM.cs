@@ -19,7 +19,6 @@ using DiscordRichPrecence.Properties;
 
 namespace DiscordRichPrecence.Models
 {
-
     public class DiscordRpcVM : ObservableObject
     {
         private readonly DispatcherTimer clock = new DispatcherTimer();
@@ -403,11 +402,19 @@ namespace DiscordRichPrecence.Models
             {
                 if (enable)
                 {
-                    if (!string.IsNullOrEmpty(DiscordAppId) && !RichPresenceAPI.Client.IsInitialized)
+                    if (!string.IsNullOrEmpty(DiscordAppId))
                         if (DiscordAppId != "Discord Application ID")
+                        {
+                            if (RichPresenceAPI.Client.IsInitialized)
+                            {
+                                RichPresenceAPI.Client.Dispose();
+                            }
                             RichPresenceAPI.Client = new DiscordRpcClient(DiscordAppId);
+                        }
                         else
+                        {
                             RichPresenceAPI.Client = new DiscordRpcClient("1012301758229401682");
+                        }
 
                     List<DiscordRPC.Button> btns = new List<DiscordRPC.Button>();
                     if (Button1)
